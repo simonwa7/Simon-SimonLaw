@@ -1,0 +1,8 @@
+{
+  "engines": {
+    "node": "5.9.1"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}
