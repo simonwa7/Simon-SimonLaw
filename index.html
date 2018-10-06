@@ -302,19 +302,19 @@
       </div>
       <div class="row block-9" data-aos="fade-up">
         <div class="col-md-6 pr-md-5">
-          <form onsubmit="return sendEmail(Subject, Message);">
+          <form onsubmit="sendEmail();">
             <div class="form-group">
               Send Us an Email
               <br>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" id="Subject" class="form-control" placeholder="Subject">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="8" class="form-control" placeholder="Message"></textarea>
+              <textarea name="" id="Message" cols="30" rows="8" class="form-control" placeholder="Message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send message" class="btn btn-primary">
+              <button type="submit" class="btn btn-primary">Submit Query</button>
             </div>
           </form>
         </div>
@@ -363,7 +363,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
   <script>
     function sendEmail(subject, body){
-        window.open('mailto:andrewjsimonlaw@yahoo.com?subject=subject&body=body');
+        var email_string = "mailto:andrewjsimonlaw@yahoo.com?subject=" + document.getElementById("Subject").value + "&body=" + document.getElementById("Message").value;
+        window.open(email_string);
     }
   </script>
 
