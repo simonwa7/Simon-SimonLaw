@@ -364,7 +364,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script>
     function sendEmail(subject, body){
         var email_string = "mailto:andrewjsimonlaw@yahoo.com?subject=" + document.getElementById("Subject").value + "&body=" + document.getElementById("Message").value;
-        window.open(email_string);
+        window.location.href = email_string;
     }
   </script>
 
