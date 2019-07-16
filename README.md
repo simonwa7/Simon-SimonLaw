@@ -1,6 +1,6 @@
 This repository contains the files to create the website located at clevelanddivorce.net and was created by me - William Simon!
 
-The lawyers at the Law Offices of Simon&Simon (my father and cousin) specialize in family law and class action lawsuits. 
+The lawyers at the Law Offices of Simon&Simon (my father and cousin) focus on family law and class action lawsuits. 
 
 If you need a lawyer, there are none better!
 
