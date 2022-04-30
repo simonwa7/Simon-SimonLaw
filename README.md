@@ -7,3 +7,4 @@ If you need a lawyer, there are none better!
 This site was built using HTML, CSS, and JavaScript for the frontend, while the backend simply uses node.js and express. The basis of the site comes from a template created by Colorlib!
 
 All rights reserved
+ 
